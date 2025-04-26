@@ -1,0 +1,41 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+* { font-family: "Open Sans"; }
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn-outline-dark { font-weight: 500; }
+.list-unstyled li { font-weight: 500; }
+
+.footer-links-list ul { padding-left:0 }
+.footer-links-list ul li {margin-bottom:15px; list-style-type:none;padding-left:0 }
+.footer-links-list a {text-decoration:none; color:var(--bs-body-color);}
+
+#footer>div>div{
+  margin-bottom: none;
+}
